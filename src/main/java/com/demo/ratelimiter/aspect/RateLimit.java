@@ -1,6 +1,6 @@
-package com.example.ratelimiter.aspect;
+package com.demo.ratelimiter.aspect;
 
-import com.example.ratelimiter.model.RateLimiterType;
+import com.demo.ratelimiter.model.RateLimiterType;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

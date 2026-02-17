@@ -1,10 +1,10 @@
-package com.example.ratelimiter.controller;
+package com.demo.ratelimiter.controller;
 
-import com.example.ratelimiter.aspect.RateLimit;
-import com.example.ratelimiter.model.RateLimitConfig;
-import com.example.ratelimiter.model.RateLimitResult;
-import com.example.ratelimiter.model.RateLimiterType;
-import com.example.ratelimiter.service.RateLimiterService;
+import com.demo.ratelimiter.aspect.RateLimit;
+import com.demo.ratelimiter.model.RateLimitConfig;
+import com.demo.ratelimiter.model.RateLimitResult;
+import com.demo.ratelimiter.model.RateLimiterType;
+import com.demo.ratelimiter.service.RateLimiterService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.example.ratelimiter.exception;
+package com.demo.ratelimiter.exception;
 
 import lombok.Getter;
 

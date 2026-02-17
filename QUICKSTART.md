@@ -88,21 +88,17 @@ curl -X POST "http://localhost:8080/api/check-limit?key=user123" \
 ### Example 1: Add Rate Limiting to Your Controller
 
 ```java
-import com.example.ratelimiter.aspect.RateLimit;
-import com.example.ratelimiter.model.RateLimiterType;
+import aspect.com.demo.ratelimiter.RateLimit;
+import model.com.demo.ratelimiter.RateLimiterType;
 
 @RestController
 public class MyController {
-    
-    @GetMapping("/api/my-endpoint")
-    @RateLimit(
-        type = RateLimiterType.TOKEN_BUCKET,
-        limit = 100,
-        windowSeconds = 3600
-    )
-    public String myEndpoint() {
-        return "Success!";
-    }
+
+  @GetMapping("/api/my-endpoint")
+  @RateLimit(type = RateLimiterType.TOKEN_BUCKET, limit = 100, windowSeconds = 3600)
+  public String myEndpoint() {
+    return "Success!";
+  }
 }
 ```
 

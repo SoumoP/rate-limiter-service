@@ -1,4 +1,4 @@
-package com.example.ratelimiter.model;
+package com.demo.ratelimiter.model;
 
 public enum RateLimiterType {
     TOKEN_BUCKET,

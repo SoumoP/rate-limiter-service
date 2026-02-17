@@ -1,9 +1,9 @@
-package com.example.ratelimiter.aspect;
+package com.demo.ratelimiter.aspect;
 
-import com.example.ratelimiter.exception.RateLimitExceededException;
-import com.example.ratelimiter.model.RateLimitConfig;
-import com.example.ratelimiter.model.RateLimitResult;
-import com.example.ratelimiter.service.RateLimiterService;
+import com.demo.ratelimiter.exception.RateLimitExceededException;
+import com.demo.ratelimiter.model.RateLimitConfig;
+import com.demo.ratelimiter.model.RateLimitResult;
+import com.demo.ratelimiter.service.RateLimiterService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;

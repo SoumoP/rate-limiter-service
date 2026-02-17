@@ -1,8 +1,14 @@
-package com.example.ratelimiter.service;
+package com.demo.ratelimiter.service;
 
-import com.example.ratelimiter.model.RateLimitConfig;
-import com.example.ratelimiter.model.RateLimitResult;
-import com.example.ratelimiter.model.RateLimiterType;
+import com.demo.ratelimiter.model.RateLimitConfig;
+import com.demo.ratelimiter.model.RateLimitResult;
+import com.demo.ratelimiter.model.RateLimiterType;
+import com.demo.ratelimiter.strategy.FixedWindowCounterStrategy;
+import com.demo.ratelimiter.strategy.LeakyBucketStrategy;
+import com.demo.ratelimiter.strategy.RateLimiterStrategy;
+import com.demo.ratelimiter.strategy.SlidingWindowCounterStrategy;
+import com.demo.ratelimiter.strategy.SlidingWindowLogStrategy;
+import com.demo.ratelimiter.strategy.TokenBucketStrategy;
 import com.example.ratelimiter.strategy.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
