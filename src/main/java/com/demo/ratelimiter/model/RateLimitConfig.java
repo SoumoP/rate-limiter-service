@@ -1,4 +1,4 @@
-package com.example.ratelimiter.model;
+package com.demo.ratelimiter.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

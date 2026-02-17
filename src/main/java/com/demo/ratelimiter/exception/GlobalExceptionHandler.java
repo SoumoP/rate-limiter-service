@@ -1,4 +1,4 @@
-package com.example.ratelimiter.exception;
+package com.demo.ratelimiter.exception;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

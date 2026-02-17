@@ -1,7 +1,7 @@
-package com.example.ratelimiter.strategy;
+package com.demo.ratelimiter.strategy;
 
-import com.example.ratelimiter.model.RateLimitConfig;
-import com.example.ratelimiter.model.RateLimitResult;
+import com.demo.ratelimiter.model.RateLimitConfig;
+import com.demo.ratelimiter.model.RateLimitResult;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.stereotype.Component;
